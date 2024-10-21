@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 export default class TicketPaymentService {
   makePayment(accountId, totalAmountToPay) {
     if (!Number.isInteger(accountId)) {
